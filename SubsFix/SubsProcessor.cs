@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace SubsFix
 {
     class SubsProcessor
     {
-        public List<SubsBlock> SubsBlockList = new List<SubsBlock>();
+        private List<SubsBlock> SubsBlockList = new List<SubsBlock>();
 
-        public class SubsBlock
+        private class SubsBlock
         {
             public int id;
             public int timeBeginSub;
